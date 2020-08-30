@@ -24,6 +24,7 @@ default: &default
   username: postgres
   password: ""
 
+  
 development:
   <<: *default
   database: baukis2_development
